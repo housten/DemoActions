@@ -10,7 +10,7 @@ on:
 
 jobs:
   ShowInfo:
-    runs-on: Ubuntu latest 
+    runs-on: Ubuntu-latest 
     steps:
       - run: |
           echo "🎣 ${{github.action_repository}} triggered by ${{ github.event_name}}"
